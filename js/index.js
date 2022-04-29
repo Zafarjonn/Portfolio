@@ -413,23 +413,23 @@ const miniProjects = [
 ];
 const projects = [
   {
-    title: "PU Hub",
+    title: "Dyod Taxi",
     description:
-      "PU Hub is an app made for all students under Pokhara University where students can find notes,question collections,syllabus of every subjects and college details which are affiliated under Pokhara University.",
+      "Dyod Taxi is an app made for all where users can order taxi service by just clicking one button. It is super easy to use  .",
     hasLiveLink: true,
     hasCheckRepositoryButton: false,
     liveLink:
       "https://play.google.com/store/apps/details?id=tech.webtron.puhub",
     technologiesUsed: ["Dart", "Flutter", "Javascript", "Postgresql"],
     icons: [
-      "simple-icons:dart",
-      "cib:flutter",
-      "mdi:language-javascript",
+      "simple-icons:android",
+      "cib:android",
+      "mdi:language-kotlin",
       "cib:postgresql",
     ],
-    screenshotSrc: "./images/pu hub.png",
+    screenshotSrc: "./images/dyod.png",
   },
-  {
+  /*{
     title: "Yeti Army NFT",
     description:
       "NFT project where you can adopt your own Yeti Armies who will fight with you to take the world back.",
@@ -608,8 +608,8 @@ const projects = [
     technologiesUsed: ["C#"],
     icons: ["teenyicons:c-sharp-solid"],
     screenshotSrc: "./images/calculator.JPG",
-  },
-];
+  },*/    
+];  
 (function () {
   //!You can make your own logic.Don't try to understand this foolish logic
   let htmlCode = ``;
