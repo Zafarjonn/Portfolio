@@ -419,35 +419,31 @@ const projects = [
     hasLiveLink: true,
     hasCheckRepositoryButton: false,
     liveLink:
-      "https://play.google.com/store/apps/details?id=tech.webtron.puhub",
-    technologiesUsed: ["Dart", "Flutter", "Javascript", "Postgresql"],
+      "https://play.google.com/store/apps/details?id=uz.invan.teztaxirider",
+    technologiesUsed: [ "Android", "Kotlin", "Postgresql"],
     icons: [
-      "simple-icons:android",
-      "cib:android",
+      "bxl:android",
       "mdi:language-kotlin",
       "cib:postgresql",
     ],
     screenshotSrc: "./images/dyod.png",
   },
-  /*{
-    title: "Yeti Army NFT",
+  {
+    title: "Dyod Taxi Driver",
     description:
-      "NFT project where you can adopt your own Yeti Armies who will fight with you to take the world back.",
+      "This project is for taxi drivers by this app drivers can caugch order which comes from users.",
     hasLiveLink: true,
     hasCheckRepositoryButton: false,
-    liveLink: "https://www.yeti.army/",
-    technologiesUsed: ["HTML", "SCSS", "JS", "React", "Typescript", "Mongo DB"],
+    liveLink: "https://play.google.com/store/apps/details?id=uz.invan.teztaxidriver",
+    technologiesUsed: [ "Android", "Kotlin", "Postgresql"],
     icons: [
-      "icomoon-free:html-five",
-      "vscode-icons:file-type-scss",
-      "mdi:language-javascript",
-      "bx:bxl-react",
-      "cib:typescript",
-      "simple-icons:mongodb",
+      "bxl:android",
+      "mdi:language-kotlin",
+      "cib:postgresql",
     ],
-    screenshotSrc: "./images/yeti-army.png",
+    screenshotSrc: "./images/dyod-driver.png",
   },
-  {
+  /*{
     title: "SANDES-Chat App",
     description:
       "A web based chat app made with web socket,node,express and mongoDB.",
